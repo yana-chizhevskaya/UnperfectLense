@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2b3009f3-b3ac-467f-9edb-b2b0e67a7cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{1983ef9b-b5d4-498d-b683-ad16a5b7a757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{bdef8954-690c-4730-bab8-adbe9abf714d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Maths">
+      <UniqueIdentifier>{7ac6207a-ed83-46cd-be5f-acbf2cb564f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Physics">
+      <UniqueIdentifier>{b0c746c4-d288-4bc7-8929-a5aa0e33e5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics">
+      <UniqueIdentifier>{78c21381-dc62-4115-b5dd-3eb7fc150bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{62d81f6e-ee9a-46a5-80e6-d61960f0b9dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics\Sphere.cpp">
+      <Filter>src\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Maths\Vector2.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics\Ray.cpp">
+      <Filter>src\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Graphics\Quadratic.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics\Refraction.cpp">
+      <Filter>src\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\LensProject\src\Graphics\Scene.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\Sphere.h">
+      <Filter>src\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\physics\Shapes.h">
+      <Filter>src\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Maths\Vector2.h">
+      <Filter>src\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\Ray.h">
+      <Filter>src\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\StraightLine.h">
+      <Filter>src\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Maths\Quadratic.h">
+      <Filter>src\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Graphics\Draw_Rays.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics\Refraction.h">
+      <Filter>src\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
